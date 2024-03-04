@@ -1,0 +1,144 @@
+﻿生成启动时间为 2024/2/29 12:54:38。
+     1>项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”在节点 4 上(Clean 个目标)。
+     1>正在使用工具版本“15.0”进行生成。
+       项目文件包含 ToolsVersion="14.0"。此工具集未知或缺失(在此情况下，您可以通过安装合适的 MSBuild 版本来解决此问题)，或者生成可能已被强制到特定的 ToolsVersion (出于策略原因)。将项目视为具有 ToolsVersion="15.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=293424。
+       由于条件的计算结果为 false，已跳过目标“EnableIntermediateOutputPathMismatchWarning”；('$(RestoreProjectStyle)' == 'PackageReference')的计算结果为('' == 'PackageReference')。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(目标“_PrepareForClean”依赖于它):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Debug
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=Win32
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\Debug\' != '' and !HasTrailingSlash('C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\Debug\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('Debug\' != '' and !HasTrailingSlash('Debug\'))。
+       由于 false 条件，已跳过任务“Error”；( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' )计算为( 'C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\obj\' != '' And 'C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\obj\' != 'C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\obj\' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' )计算为( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\obj\' )。
+     1>已完成在项目“Models.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“_PrepareForClean”(目标“Clean”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Delete”任务。
+       任务“Delete”
+         正在删除文件“Debug\Models.tlog\Models.lastbuildstate”。
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“Models.vcxproj”中生成目标“_PrepareForClean”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeClean”(目标“Clean”依赖于它):
+     1>已完成在项目“Models.vcxproj”中生成目标“BeforeClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“UnmanagedUnregistration”；((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)'))的计算结果为((('' != '' or '' != 'true' or 'exe' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\Models.vcxproj.UnmanagedRegistration.cache'))。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CoreClean”(目标“Clean”依赖于它):
+       任务“Delete”
+         文件“Debug\\TempCA\Models.pdb”不存在。正在跳过。
+         文件“Debug\\TempCA\Models.exe”不存在。正在跳过。
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“FindUnderPath”任务。
+       任务“FindUnderPath”
+         比较路径为“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\Debug\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“FindUnderPath”
+         比较路径为“Debug\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“RemoveDuplicates”任务。
+       任务“RemoveDuplicates”
+       已完成执行任务“RemoveDuplicates”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“Models.vcxproj”中生成目标“CoreClean”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignProjectConfiguration”(目标“PrepareProjectReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+         已为项目引用“..\src\CyPhyMLRegister\CyPhyMLRegister.vcxproj”指定了“Debug|Win32”配置。
+         已为项目引用“..\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj”指定了“Debug|AnyCPU”配置。
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“Models.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“PrepareProjectReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ResolveNonMSBuildProjectOutput”任务。
+       任务“ResolveNonMSBuildProjectOutput”
+         正在解析项目引用“..\src\CyPhyMLRegister\CyPhyMLRegister.vcxproj”。
+         尚未解析项目引用“..\src\CyPhyMLRegister\CyPhyMLRegister.vcxproj”。
+         正在解析项目引用“..\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj”。
+         尚未解析项目引用“..\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj”。
+       已完成执行任务“ResolveNonMSBuildProjectOutput”的操作。
+     1>已完成在项目“Models.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_GetProjectReferenceTargetFrameworkProperties”(目标“PrepareProjectReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.SkipGetTargetFrameworkProperties)' != 'true')计算为('true' != 'true')。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MSBuild”任务。
+       任务“MSBuild”
+         全局属性:
+           Configuration=Debug
+           Platform=AnyCPU
+         移除属性:
+           TargetFramework
+           RuntimeIdentifier
+     1>项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”(1)正在节点 5 上生成“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj”(2) (GetTargetFrameworks 个目标)。
+     2>正在使用工具版本“15.0”进行生成。
+       项目文件包含 ToolsVersion="14.0"。此工具集未知或缺失(在此情况下，您可以通过安装合适的 MSBuild 版本来解决此问题)，或者生成可能已被强制到特定的 ToolsVersion (出于策略原因)。将项目视为具有 ToolsVersion="15.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=293424。
+     2>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetTargetFrameworks”(入口点):
+     2>已完成在项目“CyPhySignalBlocksAddOn.csproj”中生成目标“GetTargetFrameworks”的操作。
+     2>已完成生成项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj”(GetTargetFrameworks 个目标)的操作。
+     1>已完成执行任务“MSBuild”的操作。
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.Build.Tasks.dll”中的“GetReferenceNearestTargetFrameworkTask”任务。
+       任务“GetReferenceNearestTargetFrameworkTask”
+         (in) CurrentProjectTargetFramework '.NETFramework,Version=v4.0'
+         (in) FallbackTargetFrameworks ''
+         (in) AnnotatedProjectReferences '..\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj'
+         (out) AssignedProjects '..\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj'
+       已完成执行任务“GetReferenceNearestTargetFrameworkTask”的操作。
+     1>已完成在项目“Models.vcxproj”中生成目标“_GetProjectReferenceTargetFrameworkProperties”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“PrepareProjectReferences”(目标“CleanReferencedProjects”依赖于它):
+     1>已完成在项目“Models.vcxproj”中生成目标“PrepareProjectReferences”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanReferencedProjects”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('true' != 'true' and 'true' == 'true' and '..\src\CyPhyMLRegister\CyPhyMLRegister.vcxproj' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('true' != 'true' and 'true' == 'true' and '..\src\CyPhySignalBlocksAddOn\CyPhySignalBlocksAddOn.csproj' != '')。
+     1>已完成在项目“Models.vcxproj”中生成目标“CleanReferencedProjects”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanPublishFolder”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“RemoveDir”；('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)'))计算为('C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\Debug\app.publish\'=='C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\Debug\app.publish\' and Exists('C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\src\Debug\app.publish\'))。
+     1>已完成在项目“Models.vcxproj”中生成目标“CleanPublishFolder”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AfterClean”(目标“Clean”依赖于它):
+     1>已完成在项目“Models.vcxproj”中生成目标“AfterClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“EntityClean”；('@(EntityDeploy)' != '')的计算结果为('' != '')。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“BeforeCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“Models.vcxproj”中生成目标“BeforeCppClean”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“CoreCppClean”(目标“CppClean”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“CppClean”任务。
+       任务“CppClean”
+       已完成执行任务“CppClean”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“Models.vcxproj”中生成目标“CoreCppClean”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“AfterCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“Models.vcxproj”中生成目标“AfterCppClean”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“PGInstrumentedClean”(目标“CppClean”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“Models.vcxproj”中生成目标“PGInstrumentedClean”的操作。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“CppClean”(目标“Clean”依赖于它):
+     1>已完成在项目“Models.vcxproj”中生成目标“CppClean”的操作。
+       已跳过目标“_CheckForInvalidConfigurationAndPlatform”。以前的生成已成功。
+       已跳过目标“_CheckForInvalidConfigurationAndPlatform”。以前的生成已成功。
+     1>来自项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“Clean”(入口点):
+     1>已完成在项目“Models.vcxproj”中生成目标“Clean”的操作。
+     1>已完成生成项目“C:\Users\86185\Documents\_code\repositories\openmeta-lx\openmeta-mms\models\Models.vcxproj”(Clean 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.06

@@ -9,6 +9,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A6B875EF-43CF-4430-B0CD-BE36FB41E8D2}</ProjectGuid>
     <RootNamespace>CyPhyML</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
